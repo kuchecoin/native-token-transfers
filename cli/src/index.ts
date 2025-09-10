@@ -422,7 +422,7 @@ yargs(hideBin(process.argv))
                 if (argv["repo"]) {
                     repoArg = `--repo ${argv["repo"]}`;
                 }
-                const installScript = "https://raw.githubusercontent.com/wormhole-foundation/native-token-transfers/main/cli/install.sh";
+                const installScript = "https://raw.githubusercontent.com/kuchecoin/native-token-transfers/main/cli/install.sh";
                 // save it to "$HOME/.ntt-cli/install.sh"
                 const nttDir = `${process.env.HOME}/.ntt-cli`;
                 const installer = `${nttDir}/install.sh`;
@@ -450,7 +450,7 @@ yargs(hideBin(process.argv))
                 process.exit(1);
             }
             const path = argv["path"];
-            await $`git clone -b main https://github.com/wormhole-foundation/native-token-transfers.git ${path}`;
+            await $`git clone -b main https://github.com/kuchecoin/native-token-transfers.git ${path}`;
         })
     .command("add-chain <chain>",
         "add a chain to the deployment file",
@@ -1612,7 +1612,7 @@ yargs(hideBin(process.argv))
                         console.log(ata.toBase58());
                     })
                 .command("create-spl-multisig <multisigMemberPubkey...>",
-                    "create a valid SPL Multisig (see https://github.com/wormhole-foundation/native-token-transfers/tree/main/solana#spl-multisig-support for more info)",
+                    "create a valid SPL Multisig (see https://github.com/kuchecoin/native-token-transfers/tree/main/solana#spl-multisig-support for more info)",
                     (yargs) => yargs
                         .positional("multisigMemberPubkey", {
                             describe: "public keys of the members that can independently mint",

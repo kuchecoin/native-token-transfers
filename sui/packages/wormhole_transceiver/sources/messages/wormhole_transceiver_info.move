@@ -12,7 +12,7 @@ module wormhole_transceiver::wormhole_transceiver_info {
     const EIncorrectPrefix: vector<u8>
         = b"incorrect prefix";
 
-    // https://github.com/wormhole-foundation/native-token-transfers/blob/b6b681a77e8289869f35862b261b8048e3f5d398/evm/src/libraries/TransceiverStructs.sol#L409C12-L409C27
+    // https://github.com/kuchecoin/native-token-transfers/blob/b6b681a77e8289869f35862b261b8048e3f5d398/evm/src/libraries/TransceiverStructs.sol#L409C12-L409C27
     public struct WormholeTransceiverInfo has drop{
         manager_address: ExternalAddress,
         manager_mode: Mode, 
