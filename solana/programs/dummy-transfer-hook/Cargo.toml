@@ -20,6 +20,7 @@ tilt-devnet = []
 tilt-devnet2 = [ "tilt-devnet" ]
 
 [dependencies]
+solana-security-txt = "1.1.1"
 anchor-lang.workspace = true
 anchor-spl.workspace = true
 solana-program.workspace = true
