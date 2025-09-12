@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 #[cfg(not(feature = "no-entrypoint"))]
-security_txt! {
+solana_security_txt::security_txt! {
     // Required fields
     name: "ASSDAQ",
     project_url: "https://assdaqbridge.com",

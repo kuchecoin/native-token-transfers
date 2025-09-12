@@ -16,9 +16,34 @@
         }
       },
       "limits": {
-        "outbound": "100.000000",
-        "inbound": {}
+        "outbound": "100000000.000000",
+        "inbound": {
+          "Bsc": "100000000.000000"
+        }
       }
+    },
+    "Bsc": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0xC166c29F6c90B124c7665C76e7F89955dBc1bd07",
+      "manager": "0x0ddDcdca59ed4606D1957Bd8fE61ca1cf015E789",
+      "token": "0xe1f9d33Af34ae088af6102B759997eb304735Ee8",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xbF8EC27Fe3Ff637Bca32AcDe0A7cA65940194021",
+          "pauser": "0xC166c29F6c90B124c7665C76e7F89955dBc1bd07",
+          "executor": true
+        }
+      },
+      "limits": {
+        "outbound": "100000000.000000000000000000",
+        "inbound": {
+          "Solana": "100000000.000000000000000000"
+        }
+      },
+      "pauser": "0xC166c29F6c90B124c7665C76e7F89955dBc1bd07"
     }
   }
 }

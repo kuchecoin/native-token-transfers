@@ -1,0 +1,105 @@
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  Deploying Wormhole Ntt...
+  NttManager: 0x0ddDcdca59ed4606D1957Bd8fE61ca1cf015E789
+  WormholeTransceiver: 0xbF8EC27Fe3Ff637Bca32AcDe0A7cA65940194021
+  Transceiver address set on NttManager:  0xbF8EC27Fe3Ff637Bca32AcDe0A7cA65940194021
+  Outbound rate limit set on NttManager:  184467440737095516150000000000
+  Threshold set on NttManager: 1
+
+SKIPPING ON CHAIN SIMULATION.
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+##
+Start verification for (4) contracts
+Start verifying contract `0x46954DB500bd01FfdDc0882EC2654E0C88328DAd` deployed on bsc
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 000000000000000000000000e1f9d33af34ae088af6102b759997eb304735ee80000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000151800000000000000000000000000000000000000000000000000000000000000000
+
+Submitting verification for [src/NttManager/NttManager.sol:NttManager] 0x46954DB500bd01FfdDc0882EC2654E0C88328DAd.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `w6tm5kjd3ue2jrpbtusubvympc9ttdb9ht2kcqxf6vtkxwzcm6`
+	URL: https://bscscan.com/address/0x46954db500bd01ffddc0882ec2654e0c88328dad
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (6 tries remaining)
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+Start verifying contract `0x0ddDcdca59ed4606D1957Bd8fE61ca1cf015E789` deployed on bsc
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 00000000000000000000000046954db500bd01ffddc0882ec2654e0c88328dad00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+
+Submitting verification for [lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy] 0x0ddDcdca59ed4606D1957Bd8fE61ca1cf015E789.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `fr962psszlgjznlxsijrn2ijtflawff8hrjchmlkykfue8u8yg`
+	URL: https://bscscan.com/address/0x0dddcdca59ed4606d1957bd8fe61ca1cf015e789
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+Start verifying contract `0xC141D44A730fe8004B05A73bd552C98e80E0eDC5` deployed on bsc
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 0000000000000000000000000dddcdca59ed4606d1957bd8fe61ca1cf015e78900000000000000000000000098f3c9e6e3face36baad05fe09d375ef1464288b00000000000000000000000027428dd2d3dd32a4d7f7c497eaaa23130d8949110000000000000000000000008c56ee9cd232d23541a697c0ebd3ca597de3c88d00000000000000000000000000000000000000000000000000000000000000ca000000000000000000000000000000000000000000000000000000000007a120
+
+Submitting verification for [src/Transceiver/WormholeTransceiver/WormholeTransceiver.sol:WormholeTransceiver] 0xC141D44A730fe8004B05A73bd552C98e80E0eDC5.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `lhaml99pdfk4snz4fa4xbmi5pfxen6kbngcrv4m1y8btfzysgw`
+	URL: https://bscscan.com/address/0xc141d44a730fe8004b05a73bd552c98e80e0edc5
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `OK`
+Details: `Pass - Verified`
+Contract successfully verified
+Start verifying contract `0xbF8EC27Fe3Ff637Bca32AcDe0A7cA65940194021` deployed on bsc
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 000000000000000000000000c141d44a730fe8004b05a73bd552c98e80e0edc500000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+
+Submitting verification for [lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy] 0xbF8EC27Fe3Ff637Bca32AcDe0A7cA65940194021.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `mkppqe8qdmdipux8ci5af6yzstle6kbebniwki255s9qifxkxv`
+	URL: https://bscscan.com/address/0xbf8ec27fe3ff637bca32acde0a7ca65940194021
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+All (4) contracts were verified!
+
+Transactions saved to: /home/tbonchev/git-repos/kuche/assdaq-ntt/evm/broadcast/DeployWormholeNtt.s.sol/56/run-latest.json
+
+Sensitive values saved to: /home/tbonchev/git-repos/kuche/assdaq-ntt/evm/cache/DeployWormholeNtt.s.sol/56/run-latest.json
+

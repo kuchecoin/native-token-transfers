@@ -6,7 +6,7 @@ use anchor_spl::{
 use spl_tlv_account_resolution::state::ExtraAccountMetaList;
 
 #[cfg(not(feature = "no-entrypoint"))]
-security_txt! {
+solana_security_txt::security_txt! {
     // Required fields
     name: "ASSDAQ",
     project_url: "https://assdaqbridge.com",
