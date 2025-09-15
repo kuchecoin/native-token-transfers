@@ -59,6 +59,7 @@ const nttManagerWithExecutorAddresses: Partial<
     Celo: '0x3d69869fcB9e1CD1F4020b637fb8256030BAc8fC',
     // @ts-ignore
     XRPLEVM: '0xcDD9d7C759b29680f7a516d0058de8293b2AC7b1',
+    Mezo: '0x484b5593BbB90383f94FB299470F09427cf6cfE2',
   },
 };
 
