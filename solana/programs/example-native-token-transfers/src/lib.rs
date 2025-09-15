@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 #[cfg(not(feature = "no-entrypoint"))]
-security_txt! {
+solana_security_txt::security_txt! {
     // Required fields
     name: "ASSDAQ",
     project_url: "https://assdaqbridge.com",
@@ -93,7 +93,7 @@ cfg_if::cfg_if! {
     } else if #[cfg(feature = "tilt-devnet")] {
         declare_id!("NTTManager111111111111111111111111111111111");
     } else {
-        declare_id!("NTT12WAxPw3o9nGMdcicJUB8SUWq5ee3QZn2cf4Lgn6");
+        declare_id!("NTTkYAiVKitnNvZjS6MJr6JEjR42movctE4i5i9E38t");
     }
 }
 

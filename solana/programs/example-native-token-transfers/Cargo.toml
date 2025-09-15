@@ -31,6 +31,7 @@ workspace = true
 
 [dependencies]
 
+solana-security-txt = "1.1.1"
 ntt-messages = { path = "../../modules/ntt-messages", features = ["anchor", "hash"] }
 anchor-lang = { workspace = true, features = ["init-if-needed"] }
 anchor-spl.workspace = true

@@ -1,0 +1,24 @@
+{
+  "network": "Mainnet",
+  "chains": {
+    "Solana": {
+      "version": "3.0.0",
+      "mode": "locking",
+      "paused": false,
+      "owner": "ASShtzYQxDxsHsemBM96kqg2nM15uqr8av5maFjdwGd8",
+      "manager": "NTTkYAiVKitnNvZjS6MJr6JEjR42movctE4i5i9E38t",
+      "token": "7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "DLTGX8qMdoVvGpa7FtgygUPPaanKMmck7jz7YMXZj5FJ",
+          "executor": true
+        }
+      },
+      "limits": {
+        "outbound": "100.000000",
+        "inbound": {}
+      }
+    }
+  }
+}

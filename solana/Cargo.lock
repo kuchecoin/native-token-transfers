@@ -1399,6 +1399,7 @@ dependencies = [
  "anchor-lang",
  "anchor-spl",
  "solana-program",
+ "solana-security-txt",
  "spl-tlv-account-resolution 0.6.3",
  "spl-transfer-hook-interface 0.6.3",
 ]
@@ -1573,6 +1574,7 @@ dependencies = [
  "solana-program-runtime",
  "solana-program-test",
  "solana-sdk",
+ "solana-security-txt",
  "spl-associated-token-account 3.0.2",
  "spl-token",
  "spl-token-2022 3.0.2",
@@ -2492,6 +2494,7 @@ dependencies = [
  "cfg-if",
  "example-native-token-transfers",
  "solana-program",
+ "solana-security-txt",
  "wormhole-io",
  "wormhole-solana-utils",
 ]
@@ -2506,6 +2509,7 @@ dependencies = [
  "hex",
  "ntt-messages",
  "solana-program",
+ "solana-security-txt",
  "wormhole-anchor-sdk",
  "wormhole-io",
  "wormhole-sdk",
