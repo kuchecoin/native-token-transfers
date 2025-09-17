@@ -1,0 +1,97 @@
+No files changed, compilation skipped
+Script ran successfully.
+
+== Logs ==
+  Deploying Wormhole Ntt...
+  NttManager: 0x3c100D5AfB0dDb41aC0D1e374040B8255b38f78a
+  WormholeTransceiver: 0x1150B0cefAc880e488c6d386f0d9A5f6cF73C06B
+  Transceiver address set on NttManager:  0x1150B0cefAc880e488c6d386f0d9A5f6cF73C06B
+  Outbound rate limit set on NttManager:  184467440737095516150000000000
+  Threshold set on NttManager: 1
+
+SKIPPING ON CHAIN SIMULATION.
+
+
+==========================
+
+ONCHAIN EXECUTION COMPLETE & SUCCESSFUL.
+##
+Start verification for (4) contracts
+Start verifying contract `0xb6209417534E1EE9b6484ea9489dB7382f094E89` deployed on mainnet
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 000000000000000000000000f4f53989d770458b659f8d094b8e31415f68a4cf0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000151800000000000000000000000000000000000000000000000000000000000000000
+
+Submitting verification for [src/NttManager/NttManager.sol:NttManager] 0xb6209417534E1EE9b6484ea9489dB7382f094E89.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `lf8adryausjawcm8bstthjc4uujkltcxwib89yz8qxr4vrgjbe`
+	URL: https://etherscan.io/address/0xb6209417534e1ee9b6484ea9489db7382f094e89
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+Start verifying contract `0x3c100D5AfB0dDb41aC0D1e374040B8255b38f78a` deployed on mainnet
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 000000000000000000000000b6209417534e1ee9b6484ea9489db7382f094e8900000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+
+Submitting verification for [lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy] 0x3c100D5AfB0dDb41aC0D1e374040B8255b38f78a.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `3pp6rnsjmduzv4wfag4thwxbxcy3466uthtamjzvhxjbkqgvfm`
+	URL: https://etherscan.io/address/0x3c100d5afb0ddb41ac0d1e374040b8255b38f78a
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+Start verifying contract `0xAA17616bD9Dcb362c62E8E117bb41048085bfa81` deployed on mainnet
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 0000000000000000000000003c100d5afb0ddb41ac0d1e374040b8255b38f78a00000000000000000000000098f3c9e6e3face36baad05fe09d375ef1464288b00000000000000000000000027428dd2d3dd32a4d7f7c497eaaa23130d89491100000000000000000000000063be47835c7d66c4aa5b2c688dc6ed9771c94c7400000000000000000000000000000000000000000000000000000000000000ca000000000000000000000000000000000000000000000000000000000007a120
+
+Submitting verification for [src/Transceiver/WormholeTransceiver/WormholeTransceiver.sol:WormholeTransceiver] 0xAA17616bD9Dcb362c62E8E117bb41048085bfa81.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `ztic4te4fi7dp2fcdcbdzcsk4atyzwera8tapjf9w5ih2biqni`
+	URL: https://etherscan.io/address/0xaa17616bd9dcb362c62e8e117bb41048085bfa81
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+Start verifying contract `0x1150B0cefAc880e488c6d386f0d9A5f6cF73C06B` deployed on mainnet
+EVM version: london
+Compiler version: 0.8.19
+Optimizations:    200
+Constructor args: 000000000000000000000000aa17616bd9dcb362c62e8e117bb41048085bfa8100000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000000
+
+Submitting verification for [lib/openzeppelin-contracts/contracts/proxy/ERC1967/ERC1967Proxy.sol:ERC1967Proxy] 0x1150B0cefAc880e488c6d386f0d9A5f6cF73C06B.
+Submitted contract for verification:
+	Response: `OK`
+	GUID: `vikny5mnnbxyd7xg4cpwwsq1w7cnxtdeizxgyw3nbrf6tpxnpv`
+	URL: https://etherscan.io/address/0x1150b0cefac880e488c6d386f0d9a5f6cf73c06b
+Contract verification status:
+Response: `NOTOK`
+Details: `Pending in queue`
+Warning: Verification is still pending...; waiting 15 seconds before trying again (7 tries remaining)
+Contract verification status:
+Response: `NOTOK`
+Details: `Already Verified`
+Contract source code already verified
+All (4) contracts were verified!
+
+Transactions saved to: /home/tbonchev/git-repos/kuche/assdaq-ntt/evm/broadcast/DeployWormholeNtt.s.sol/1/run-latest.json
+
+Sensitive values saved to: /home/tbonchev/git-repos/kuche/assdaq-ntt/evm/cache/DeployWormholeNtt.s.sol/1/run-latest.json
+

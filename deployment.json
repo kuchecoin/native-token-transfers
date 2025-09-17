@@ -6,19 +6,44 @@
       "mode": "locking",
       "paused": false,
       "owner": "ASShtzYQxDxsHsemBM96kqg2nM15uqr8av5maFjdwGd8",
-      "manager": "NTTkYAiVKitnNvZjS6MJr6JEjR42movctE4i5i9E38t",
+      "manager": "NTtqw55qyL2582gLjVoDTYKHTUwFbUAwgui8UN6nVrn",
       "token": "7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump",
       "transceivers": {
         "threshold": 1,
         "wormhole": {
-          "address": "DLTGX8qMdoVvGpa7FtgygUPPaanKMmck7jz7YMXZj5FJ",
+          "address": "8BFpjjxeEP4ZVEvf33nbsW1ZgRiMR6YMPrmYdp6EescY",
           "executor": true
         }
       },
       "limits": {
-        "outbound": "100.000000",
-        "inbound": {}
+        "outbound": "100000000.000000",
+        "inbound": {
+          "Ethereum": "100000000.000000"
+        }
       }
+    },
+    "Ethereum": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x5682d9ad746Eb4991EFFDA9245B2893213520054",
+      "manager": "0x3c100D5AfB0dDb41aC0D1e374040B8255b38f78a",
+      "token": "0xF4F53989d770458B659f8D094b8E31415F68A4Cf",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x1150B0cefAc880e488c6d386f0d9A5f6cF73C06B",
+          "pauser": "0x5682d9ad746Eb4991EFFDA9245B2893213520054",
+          "executor": true
+        }
+      },
+      "limits": {
+        "outbound": "100000000.000000000000000000",
+        "inbound": {
+          "Solana": "100000000.000000000000000000"
+        }
+      },
+      "pauser": "0x5682d9ad746Eb4991EFFDA9245B2893213520054"
     }
   }
 }
