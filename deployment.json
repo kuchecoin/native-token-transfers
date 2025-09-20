@@ -5,7 +5,7 @@
       "version": "3.0.0",
       "mode": "locking",
       "paused": false,
-      "owner": "ASShtzYQxDxsHsemBM96kqg2nM15uqr8av5maFjdwGd8",
+      "owner": "Y5467WEtnnNWSQySiyDdPhtVgwL5HuAfTnFhoNUTfsd",
       "manager": "NTtqw55qyL2582gLjVoDTYKHTUwFbUAwgui8UN6nVrn",
       "token": "7Tx8qTXSakpfaSFjdztPGQ9n2uyT1eUkYz7gYxxopump",
       "transceivers": {
@@ -18,7 +18,9 @@
       "limits": {
         "outbound": "100000000.000000",
         "inbound": {
-          "Ethereum": "100000000.000000"
+          "Ethereum": "100000000.000000",
+          "Bsc": "100000000.000000",
+          "Base": "100000000.000000"
         }
       }
     },
@@ -26,24 +28,76 @@
       "version": "1.1.0",
       "mode": "burning",
       "paused": false,
-      "owner": "0x5682d9ad746Eb4991EFFDA9245B2893213520054",
+      "owner": "0x4C5baA21F4160476e2006daF016E2959c1476F0d",
       "manager": "0x3c100D5AfB0dDb41aC0D1e374040B8255b38f78a",
       "token": "0xF4F53989d770458B659f8D094b8E31415F68A4Cf",
       "transceivers": {
         "threshold": 1,
         "wormhole": {
           "address": "0x1150B0cefAc880e488c6d386f0d9A5f6cF73C06B",
-          "pauser": "0x5682d9ad746Eb4991EFFDA9245B2893213520054",
+          "pauser": "0x4C5baA21F4160476e2006daF016E2959c1476F0d",
           "executor": true
         }
       },
       "limits": {
         "outbound": "100000000.000000000000000000",
         "inbound": {
-          "Solana": "100000000.000000000000000000"
+          "Solana": "100000000.000000000000000000",
+          "Bsc": "100000000.000000000000000000",
+          "Base": "100000000.000000000000000000"
         }
       },
-      "pauser": "0x5682d9ad746Eb4991EFFDA9245B2893213520054"
+      "pauser": "0x4C5baA21F4160476e2006daF016E2959c1476F0d"
+    },
+    "Bsc": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x4C5baA21F4160476e2006daF016E2959c1476F0d",
+      "manager": "0x8b3f575B201972710f9300c33bDcDc08597228DE",
+      "token": "0xAA17616bD9Dcb362c62E8E117bb41048085bfa81",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0x1737A6BF34EEeE8e2885D3574971C019000bA9Fa",
+          "pauser": "0x4C5baA21F4160476e2006daF016E2959c1476F0d",
+          "executor": true
+        }
+      },
+      "limits": {
+        "outbound": "184467440737.095516150000000000",
+        "inbound": {
+          "Solana": "100000000.000000000000000000",
+          "Ethereum": "100000000.000000000000000000",
+          "Base": "100000000.000000000000000000"
+        }
+      },
+      "pauser": "0x4C5baA21F4160476e2006daF016E2959c1476F0d"
+    },
+    "Base": {
+      "version": "1.1.0",
+      "mode": "burning",
+      "paused": false,
+      "owner": "0x4C5baA21F4160476e2006daF016E2959c1476F0d",
+      "manager": "0xb6209417534E1EE9b6484ea9489dB7382f094E89",
+      "token": "0xAE60f142a02825C31E199C7c381aC94F287E34D2",
+      "transceivers": {
+        "threshold": 1,
+        "wormhole": {
+          "address": "0xAA17616bD9Dcb362c62E8E117bb41048085bfa81",
+          "pauser": "0x4C5baA21F4160476e2006daF016E2959c1476F0d",
+          "executor": true
+        }
+      },
+      "limits": {
+        "outbound": "100000000.000000000000000000",
+        "inbound": {
+          "Solana": "100000000.000000000000000000",
+          "Ethereum": "100000000.000000000000000000",
+          "Bsc": "100000000.000000000000000000"
+        }
+      },
+      "pauser": "0x4C5baA21F4160476e2006daF016E2959c1476F0d"
     }
   }
 }
